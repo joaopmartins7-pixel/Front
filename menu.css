@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/fundedegrade.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #eff5df;
+}
+
+header button{
+    background-color: #eff5df;
+    border: none;
+    font-size: 17px;
+}
+
+.div-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-e-main{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+nav{
+    display: flex;
+    background-color: #eff5df;
+    width: 200px;
+    height: 100vh;
+    grid-column: 1;
+}
+
+main{
+    grid-column: 2;
+}
+
+img{
+    height: 70px;
+}
+
+.img-usuario{
+    border-radius: 50px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #698f91;
+}
+
+a:hover{
+    color: #4c6b6c;
+    cursor: pointer;
+}
+
+h1, p{
+   color: #698f91;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 40px;
+}
