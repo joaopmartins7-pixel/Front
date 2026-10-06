@@ -5,6 +5,8 @@
 
 body{
     background-image: url(img/fundedegrade.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 header{
@@ -32,6 +34,7 @@ header button{
 .nav-e-main{
     display: grid;
     grid-template-columns: 200px 1fr;
+    height: 100vh;
 }
 
 nav{
@@ -44,6 +47,7 @@ nav{
 
 main{
     grid-column: 2;
+    margin: 70px;
 }
 
 img{
@@ -76,4 +80,83 @@ ul{
     flex-direction: column;
     gap: 100px;
     margin: 40px;
+}
+
+.a-principal{
+    font-size: 50px;
+    margin: 60px;
+    background-color: #eff5df4d;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.main-principal{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    flex-wrap: wrap;
+}
+
+.icones-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #eff5df90;
+    border-radius: 12px;
+    height: 500px;
+    width: 800px;
+    gap: 30px;
+    box-shadow: 0 10px 60px 10px #92b4ae;
+}
+
+.input-item{
+    width: fit-content;
+    border: 2px solid #698f91;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+input{
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 253, 240);
+}
+
+.btn-finalizar{
+    border: none;
+    background-color: #90b1ab;
+    padding: 12px;
+    border-radius: 12px;
+    justify-self: end;
+    align-self: end;
+    color: rgb(255, 253, 240);
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-finalizar:hover{
+    background-color: #92b4ae;
+}
+
+h2{
+    color: #4c6b6c;
+    margin: 10px;
+    font-size: 40px;
+}
+
+h3{
+    color: #4c6b6c;
+    font-size: 25px;
 }

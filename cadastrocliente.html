@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente</title>
+    <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo engrenagem">
+        <h1>Oficina Mecânica</h1>
+        <div class="div-header">
+            <button><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> sair</a></button>
+            <img class="img-usuario" src="img/img-usuario.webp" alt="perfil">
+            <p>Nome do usuário</p>
+        </div>
+    </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+                <li><a href="principal.html"><i class="fa-solid fa-house"></i> Menu</a></li>
+                <li><a href="cadastrocliente.html"><i class="fa-solid fa-user"></i> Cadastro Clientes</a></li>
+                <li><a href="listacliente.html"><i class="fa-solid fa-list"></i> Listagem Cliente</a></li>
+                <li><a href="cadastroveiculo.html"><i class="fa-solid fa-car"></i> Cadastro Veículo</a></li>
+                <li><a href="cadastroagendamento.html"><i class="fa-regular fa-calendar"></i> Cadastro Agendamento</a>
+                </li>
+                <li><a href="listaagendamento.html"><i class="fa-solid fa-list"></i> Listagem Agendamento</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Cadastro de Clientes</h2>
+            <form>
+                <h3>Preencha as informações abaixo:</h3>
+
+                <div class="inputgroup">
+                    <label for="username"></label>
+                    <div class="input-item">
+                        <input id="username" type="text" placeholder="Nome completo:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="username"></label>
+                    <div class="input-item">
+                        <input id="telefone" type="tel" placeholder="Telefone:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="username"></label>
+                    <div class="input-item">
+                        <input id="email" type="email" placeholder="Email:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="username"></label>
+                    <div class="input-item">
+                        <input id="endereco" type="text" placeholder="Endereço:">
+                    </div>
+                </div>
+                <button class="btn-finalizar">Finalizar cadastro</button>
+            </form>
+        </main>
+    </section>
+</body>
+
+</html>
