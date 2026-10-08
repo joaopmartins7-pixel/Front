@@ -5,8 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Agendamento</title>
     <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-    
+     <header>
+        <img src="img/logo.png" alt="logo engrenagem">
+        <h1>Oficina Mecânica</h1>
+        <div class="div-header">
+            <button><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> sair</a></button>
+            <img class="img-usuario" src="img/img-usuario.webp" alt="perfil">
+            <p>Nome do usuário</p>
+        </div>
+    </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+                <li><a href="principal.html"><i class="fa-solid fa-house"></i> Menu</a></li>
+                <li><a href="cadastrocliente.html"><i class="fa-solid fa-user"></i> Cadastro Clientes</a></li>
+                <li><a href="listacliente.html"><i class="fa-solid fa-list"></i> Listagem Cliente</a></li>
+                <li><a href="cadastroveiculo.html"><i class="fa-solid fa-car"></i> Cadastro Veículo</a></li>
+                <li><a href="cadastroagendamento.html"><i class="fa-regular fa-calendar"></i> Cadastro Agendamento</a>
+                </li>
+                <li><a href="listaagendamento.html"><i class="fa-solid fa-list"></i> Listagem Agendamento</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 class="h2-table">Lista de agendamentos</h2>
+                <details>
+                    <summary>Ordenar por:</summary>
+                    <button>Hoje</button>
+                    <button>Essa semana</button>
+                    <button>Esse mês</button>   
+                </details>
+            </section>
+
+            <details class="details-lista">
+                <summary>
+                    <p>Sophia Arbuquerque</p>
+                    <p>Civic</p>
+                    <p>03/10/2026</p>
+                    <p>15:00</p>
+                </summary>
+                <table>
+                    <tbody class="table-agend">
+                    <tr>
+                        <td>Sophia Arbuquerque</td>
+                        <td>99674-2690</td>
+                        <td>sosocareca@gmail.com</td>
+                        <td>Rua das desgraças, 157</td>
+                    </tr>
+                    <tr>
+                        <td>FMI6886</td>
+                        <td>Civic</td>
+                        <td>Honda</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Limpeza de vidro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                    </tr>
+                    </tbody> 
+                </table>
+            </details>
+
+            <details class="details-lista">
+                <summary>
+                    <p>Raquel Brito</p>
+                    <p>T-Cross</p>
+                    <p>09/29/2026</p>
+                    <p>19:30</p>
+                </summary>
+                <table>
+                    <tbody class="table-agend">
+                    <tr>
+                        <td>Raquel Brito</td>
+                        <td>99876-5432</td>
+                        <td>irmadodavibrito@gmail.com</td>
+                        <td>Rua Yotra vici, 999</td>
+                    </tr>
+                    <tr>
+                        <td>AFB9999</td>
+                        <td>T-Cross</td>
+                        <td>Hyundai</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Conserto de pneu
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                    </tr>
+                    </tbody> 
+                </table>
+            </details>
+
+            <details class="details-lista">
+                <summary>
+                    <p>Karol com K</p>
+                    <p>HB20</p>
+                    <p>30/09/2026</p>
+                    <p>19:00</p>
+                </summary>
+                <table>
+                    <tbody class="table-agend">
+                    <tr>
+                        <td>Karol com K</td>
+                        <td>89787-0909</td>
+                        <td>karoldebochada@gmail.com</td>
+                        <td>Rua Estúdios Globo, 201</td>
+                    </tr>
+                    <tr>
+                        <td>FMI6776</td>
+                        <td>HB20</td>
+                        <td>Hyundai</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Limpeza
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                    </tr>
+                    </tbody> 
+                </table>
+            </details>
+
+            <details class="details-lista">
+                <summary>
+                    <p>Juliette Freire</p>
+                    <p>Onix</p>
+                    <p>30/09/2026</p>
+                    <p>14:00</p>
+                </summary>
+                <table>
+                    <tbody class="table-agend">
+                    <tr>
+                        <td>Juliette Freire</td>
+                        <td>12344-5679</td>
+                        <td>juliettecampea@gmail.com</td>
+                        <td>Rua Sertão cuzcatuz</td>
+                    </tr>
+                    <tr>
+                        <td>FMI6776</td>
+                        <td>Onix</td>
+                        <td>Chevrolet</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Conserto de motor
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                    </tr>
+                    </tbody> 
+                </table>
+            </details>
+        </main>
+    </section>
 </body>
 </html>

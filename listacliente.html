@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Cliente</title>
     <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menu.css">
 </head>
+
 <body>
-    
+    <header>
+        <img src="img/logo.png" alt="logo engrenagem">
+        <h1>Oficina Mecânica</h1>
+        <div class="div-header">
+            <button><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> sair</a></button>
+            <img class="img-usuario" src="img/img-usuario.webp" alt="perfil">
+            <p>Nome do usuário</p>
+        </div>
+    </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+                <li><a href="principal.html"><i class="fa-solid fa-house"></i> Menu</a></li>
+                <li><a href="cadastrocliente.html"><i class="fa-solid fa-user"></i> Cadastro Clientes</a></li>
+                <li><a href="listacliente.html"><i class="fa-solid fa-list"></i> Listagem Cliente</a></li>
+                <li><a href="cadastroveiculo.html"><i class="fa-solid fa-car"></i> Cadastro Veículo</a></li>
+                <li><a href="cadastroagendamento.html"><i class="fa-regular fa-calendar"></i> Cadastro Agendamento</a>
+                </li>
+                <li><a href="listaagendamento.html"><i class="fa-solid fa-list"></i> Listagem Agendamento</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2 class="h2-table">Lista de clientes</h2>
+                <div class="inputgroup">
+                    <label for="busca"></label>
+                    <div class="input-item">
+                        <input id="busca" type="text" placeholder="Buscar cliente...">
+                    </div>
+                </div>
+            </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sophia Arbuquerque</td>
+                        <td>sosocareca@gmail.com</td>
+                        <td>99674-2690</td>
+                        <td>Rua das desgraças, 157</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Raquel Brito</td>
+                        <td>irmadodavibrito@gmail.com</td>
+                        <td>99876-5432</td>
+                        <td>Rua Yotra vici, 999</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Karol com K</td>
+                        <td>karoldebochada@gmail.com</td>
+                        <td>89787-0909</td>
+                        <td>Rua Estúdios Globo, 201</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juliette Freire</td>
+                        <td>juliettecampea@gmail.com</td>
+                        <td>12344-5679</td>
+                        <td>Rua Sertão cuzcatuz</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Luis Inácio</td>
+                        <td>lula_oficial@gov.com</td>
+                        <td>13131-3131</td>
+                        <td>Rua Via Presidencial</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lucas Rangel</td>
+                        <td>rangel_exflop@gmail.com</td>
+                        <td>12340-1203</td>
+                        <td>Residência Mia</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </main>
+    </section>
 </body>
+
 </html>
